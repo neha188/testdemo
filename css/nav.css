@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #A5A1A1;
+  width: 100%;
+  height: 90px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  clear: both;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.row {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  width: 250px;
+  height: 70px;
+  float: left;
+  padding: 10px 5px 5px 5px;
+}
+.menu {
+  float: right;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 33px 15px 5px 5px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-size: 18px;
+  cursor: pointer;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: aqua;
+}
+.banner {
+  width: 100%;
+  height: 600px;
+}
+.threeimage {
+  width: 500px;
+  height: 300px;
+}
+.rightimage {
+  width: 500px;
+  height: 300px;
+  margin-left: 40px;
+}
+.box1 {
+  width: 50%;
+  float: left;
+  clear: left;
+  margin-top: 10px;
+}
+.box2 {
+  width: 50%;
+  float: right;
+  clear: right;
+  margin-top: 10px;
+}
+.text {
+  line-height: 30px;
+  font-size: 14px;
+}
+footer {
+  background-color: #A5A1A1;
+  width: 100%;
+  height: 30px;
+  margin-top: 640px;
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+}
